@@ -1,0 +1,275 @@
+z is equal to x 0 and -1 in the list
+computes variable from a defined function using inputs
+updates the last element of a list so that it is equal to the first element of the same list
+to change the element of string in the last one position
+switches the position of 2 elements in a list
+change the second element in x to z
+z is the last element in list x
+checks if variable z is the first and last variable in list x
+the list between two elements of 0 and -1
+the second element of the list is equal to the first element of the list
+The variable z is assigned as the first item in the list. The first item is assigned to be the same as the last item, and then z is updated by reassigning.
+Defines a function that evaluates the list's index
+assign the value of the first index of a function to the value of the final index
+For a given list, changing the value of the last character to be same as the value of the first character.
+Rewrite the given variables with their new assignments
+Inverts the list x and makes the second element first and the first element second of the list x
+returns the value of z
+assigns the last element in list x with the first
+the first value in a list equals z
+Z is defined as the number in list x at index 0, the first item. The number at index 0 is reassigned the last value in the list. The last number in the list is then reassigned value z, the first list value.
+determines if the index at the first and last position in a function are equal to the letter z or to each other.
+z is moved into the last position of the list
+finds the index at value -1
+assigns element z to the beginning and end of the list x
+index -1 of list x is equal to index 0 of the same list
+Assigns the first element and last element of the list to variable z.
+Assigns the element of index -1 in list x to variable z
+swaps two values positions in a list
+reverses the order of elements in list x
+changing the first index to equal the last index of the list
+The values of the variables are reassigned amongst each other.
+z is equal to the first and the last element of list x
+check that the first and last value of the list are the same number
+z is equivalent to the variable at the -1 index of x
+the variable x is equal to z and the variable x when inversed is also equal to z
+makes the beginning and ending elements equal
+The variable z is the first value in the list of variable x as the index value is 0. The first value in variable x list is also the same as the last value in the list as x[0]=x[-1] , which means that the first and last value in the list are the same value. It then goes onto say that the last placed value in the list is equal to z and this in turn means that z can be considered to be the last value in the list and also the first value in the list according to the given function.
+In a defined function, given indices in list x are equal to one another and equal to list z.
+define a variable
+first and last elements of the list x are equal
+defines the elements in the list x
+takes the first element of a list, converts it to the last element of the list and assigns it to the variable z
+Assigns two identical elements in a list to the variable z
+returns a list in which the first and last element are the same
+Defines a function with the parameter x and within that function assigns variable z with an index of parameter x.
+the value of the last element in a list is replaced with the first element
+Finds if the last character of the list x is equal to the value of z
+the list x has equivalent values at the beginning and end of the list
+checks if two numbers are approximately the same
+modifying the values within a list
+returns true if a list has the same first and last element
+Switches the index location of the two values in the list.
+Finds the variable in place of -1
+z equals the last element in the list x
+assigns the variable z to the first element in a list and reassigns the first and last element values
+checks if both elements in list are equal
+The two elements in the list have same values.
+makes the beginning and end of a list the same
+computes z value in list index 0 and 1
+#swaps the two elements in a given list
+variable equals another variable multiplied by 0
+the 0 index is equal to the 1 index of the list x
+let the first element and the last element in the list x equal to each other
+returns the values of a list in reverse
+convert the last element with the first element in a list
+swaps the place of two values from the list
+Returns the elements in the list based on what position they are in.
+finds two elements in list x by indexing
+updates the first value in the list to the last value
+z and the first value in a list are both set equivalent to the last value in the list
+Sets the first and last value in a list equal to each other
+checks if first and last index of x are equal.
+checks if the first and last elements in a list are equal to eachother
+returns a function with different indexes for x and z
+The variable z gets assigned the first element of a list, then the last element gets assigned to z
+Sets z as the last character of the list x
+switches the two elements in the list around
+the value of x in that index must equal z
+checks if the list is empty
+reverses the order of a list
+variable z is equal to the variable x with a value of 0. The variable x with the value of 0 is equal to x with a new value of negative 1. The variable x with the value of -1 is equal to z.
+shows that the first and last value of a list are equal to each other
+a variable equals the 0 index of a list, then replaces the index with the negative first of a list, then makes that index equal the original variable
+returns the absolute value of x
+z is last in the list
+creates a set where the first and last index swap values
+return True if the first element in list x is equal to the last element in list x; otherwise return false
+returns true if the first and last element of a list are the same
+the last element of the list is equal to the first element of a list
+the last element of a list is changed to equal the first element of that list. This last element is given the variable y.
+the list has variable x indexing -1
+number z did not change throughout the code
+checks to see if the first value of the list x is the same as the last value in list z
+defines the based arithmetic list
+returns if the first element in the list is equal to the last element in the list
+checking to see if there is an empty list
+looking for the index of x
+z is equal to the index[0] value of x. z is also equal to the index[-1] value of x. That means the first and last values of the list are the same value
+checks if all of the numbers are approximately equal to each other
+modifies list so first and last element of list is the same
+the value at index zero found in list x is stored in z, then the value at index zero of list x is changed to the last value in the list x, then the new value at index -1 is stored newly in z.
+copies the last element of the function and stores it within the first index
+reciprocal order of list x
+makes variable z equal to the first value of set x
+checks if absolute value of one variable is equivalent to absolute value of another variable
+z is equal to the first element of x, the first element of x (x[0]) is equal to the value of the last element of x, and the last element of z (x[-1]) is equal to the value of the first element of x.
+determines if z is the last character of a string
+returns the letter z from the last element of a list
+list x begins and ends with z
+Returns the modified list with changed variables after the code executes
+Swap the first and last values of z
+sets the first element of a list, the last element of a list, and a variable to the same thing
+returns z equal to x[0]
+the first element of the list is z, the first element is the last element, the last element is z
+the value of x is updated through a new list
+Z equals the last value of X.
+The last index in a list is defined as the variable 'z'
+returns true if z is equal to the first and last elements of x; false if not
+printing out the list variable for x
+There is a list have same things im first and last space.
+the first and the last elements in a list are equal
+Element X's index value equal to that of Z's
+first two elements in list x are made the same as z
+replaces the negative number with another number
+returns whether an element in a list equals to z
+The code defines a variable z with the first element in a list, then it sets the first and last element equal to each other, then it assigns the value of the last element with variable z.
+defining values based on equivalence
+True if the first value in list x is equal to the last value in the list, otherwise False
+z equals the first value in list x. the first value in list x changes to be the same as what the last value. the last value in list x changes to be the same as z.
+the first element in the list and the value in z are modified to both equal the last element
+return True if the last element of x is equal to the first element of x
+z is equal to the first letter in a word. The first letter and last letter of x are the same.
+this function makes the variable z equal to the index [-1] of x which is a list
+returns one element in the list
+First and final elements in x list have same value z.
+the code reverses the first and last elements of the list
+Finds the value of z by making it equal to the index of -1 in the list of x
+z is same as the first character of x, x's first character is same as the last character of x's last character, and x's last character replaces z
+assigns the last element of list x in value of the first element value in list x
+returns the same value in a list
+creates a list with two of the same elements at index 0 and index -1
+the index of z is moved from 0 to -1 in the function x
+The first element of the list is the same as the last element of the list
+z is the first value in list x, which is also equal to the last value of list x
+finds the index of the function
+z is assigned to the end of a list
+definition of f(x), list z is equal to first thing in set x, first thing in set x is equal to last thing in set x, last thing in set x is equal to z
+assigns z to the single character in x
+z is equal to the first value in list x
+replaces index 0 with z
+returns three numbers with equal value
+checks if two values are equal to each other
+the index of x at -1 equals z
+modifying the first and last elements in the list x
+inputs a list for x and executes a new list
+Makes a variable x list where both elements are the same
+assigns the first and last item of a list to be the same
+checks if first and last element in list are equal
+first and last elements of the list become the same
+returns new list values from value of z
+Reassigns values at different indexes in list x
+z equals the last index of the x function
+Determines and defines the values of index in correspondence with the element(s)
+returns the last element of a list
+Swaps the order of the two items in list x
+the first element in list x equivalent to the last element in list x
+sets variable z equal to the last element in list x
+returns list with the first and last elements swapping values
+makes the first and last elements of the list equal to each other
+the function is true if z is a list
+identify the first value in a list and check if it is equal to to the last value in the list
+the last variable in set x is set equal to z
+return if variable x last index letter is z
+switches the value in index 0 to the value in index 1 and the value in index 1 to the value in index 0
+Makes z equal to the last value in a list
+the value of the last integer in a list remains the same
+The index contained in x[-1] replaces the index in x[0] and is stored in z
+z is a variable changed from being associated with the first value of a list to being associated with the last value of a list
+# makes both first index and last index of list value z (matching)
+assigns first element of list x to variable z which is equal to last element of list x
+define a function for f(x) and set different value for the list.
+Swaps the sequence of the first and last element within the list x
+makes the first item in the list equal to the last item and stores that value in variable z
+Change the position of the first and last element in the list.
+writes function x backwards
+the first and last element of a variable are the same
+The function returns the same output for the first and second position of the variable in f(x)
+changes the last element of the list to the first element in the list
+checks if the word is a palindrome by equaling the first and last letter.
+assigns a variable with an element from a list
+The value of variable z is changed from the first element of list x into the last element of list x.
+defines the index and value for two variables
+assigns the last element in list x with the first element of list x
+the first element is equal to the second element
+Assigns last element of list with variable z
+invert the position of two variables in a list
+returns the number as the absolute value
+assigns the last element of list x to z
+assigning z with the last element in the list of x
+checks if two elements of a list are equal and reassigns variable z with the last element
+last index of x is equal to z
+The code makes the value of the second element in the list is the same as the first and that the value of the first element is the same as the second initially. It basically swaps the values of the elements.
+assigns variable z with value at index 0, index 0 and -1 swap values
+z is equal to -1
+the value at the index of -1 in list x is the same as variable z
+swaps the values of the first two elements of the list
+returns the value of the last number in the list, which is equal to the variable z and index 0 in the list
+makes it so that first and last element are the same
+the first element in a list
+Last element of x is assigned with z.
+Function switches the order of the elements in a list.
+assigns variable z with the index of -1
+the function assigns and reassigns the variable z with the first and last elements of the list x, while also reassigning the value of the first element in the list with the value of the last element of the list.
+z is in the first index of list x that is then moved to the last index of list x
+defines a function that assigns z with the first element in list x, assigns the first element in list x with the last element in list x, and assigns the last element in list x with the first element in list x
+index 0 and 1 are equal to each other
+#changes variable value from first element in list, to the last element in the list, then back to the first element in the list
+the first and last elements of the list are the same value
+checks if a list contains identical elements that match element z as well
+the first and last character in x are lower case z.
+It is checking to see if the variable z is equal to itself
+set the first and last index of the list x to be equal to z
+the function switches the values of two items in a list
+the first and last element of list x is equal to the variable z
+return the index of second to last item in list x
+replace the first element of list x to the last element and replace the last element of list x to value z
+return z equal to the first elements of list x
+the element in x equals z
+The code modifies the elements of a list and then returns them back to what they originally were
+Its defining f(x). Z equals X when X is 0 and when X is 0 then it will equal X -1. If X equals -1 then will equal z.
+find whether the first value in a list equals the last value of the list
+assigning z with a new index from x
+exchange the value of first two elements in the list x.
+The code is true if the first and last element of list x is the same
+Both the first and last element in list x are equal to the same variable, z.
+returns the last index of x
+a list that has the same values for its first and last entries
+Swaps the first and second item in list x
+assigns z to the last element of list x.
+a variable x is being defined as z
+reassigns variable z with the first element in list x then replaces that first element with the last element which is variable z
+Define a function with a list parameters, make the first and last element in the list equal.
+the first and last element of the list x are both z
+Assign z to variable at index -1
+variable z equates to the first and last numbers of list x
+exchange the index of two elements in a list
+Last index in x is equal to z
+The function makes the first and last variable in the list equal to each other.
+checks if the first and last index of a string are equivalent
+initializes the first element in list x with value z, assigns the value of index of -1 to the index of zero and assigns the value of value of z as the value of index -1
+the last item in list x is equal to z
+checks if the last value of list x equals z
+The first and last variable in the list in z
+find the last value of the variable
+z is the first character in x, the first character in x is the last character in x, the last character in x is z
+the last element of the list is equal to the first element
+the last value in the list x is replaced with the first value in the list
+check if the elements in the list are the same
+The list starts and ends with the same element (z).
+checks if values at beginning and end of index are the same
+when z equals the first element of x, x[0] equals the second element in x and this updates and becomes z
+the first index and last index of the list have the same value
+z is the defined as the first and last index in list x
+change the first element and the last element in the list into z
+a function checks to see if the first and last thing in a list are equal to each other
+x has the same alphabetical order even it reversed the order.
+updates the last element of x to z
+both the first and last element in list x are z
+assign the value of the first index in the list to z, then assign the value of z to the last index of the list
+z is equal the index 0 of the x. And the index 0 of the x is equal the index -1 of the x. The index -1 of the x is equal to z
+this function takes the first element of the list and replaces it with the last element
+defining the variable x on the lenght of string statement
+The first index of x and the last index of x are the same.
+The second last object or string or value or integer of variable x is equal to z
+Make the first element of the list equals to the last element of the list and return the value

@@ -1,0 +1,101 @@
+"","Student.answer","Score"
+"1","switches the places of the first and last elements of the list with each other",1
+"2","sets first value of list x equal to its last value and last value of list x equal to first value ",1
+"3","Swaps the first and last value of a list for each other",1
+"4","flips the position of the first and last elements of a list",1
+"5","the first and last element in the list switch places",1
+"6","the first and last value of the list is swapped",1
+"7","switch the first and last item in a list",1
+"8","The first and last variables of a list are switched.",1
+"9","swap the values of the first and last elements of a list",1
+"10","Switches the first element in the list with the last element in the same list",1
+"11","The code swaps the first and last element around in a list.",1
+"12","switches the first and last element of the list",1
+"13","switches the first and last element",1
+"14","Switch the places of the first and last entries within a specified list.",1
+"15","switch first item in list with last item in list",1
+"16","The first element of x and the last element of x trade locations",1
+"17","exchange the first and the last element in the list",1
+"18","The first and last items in list x are being swapped with each other",1
+"19","switch the first index and last index of given list",1
+"20","switches the values of the first and last items in list",1
+"21","swaps the first and last elements of the list, x",1
+"22","Switching the first and last variables in a list.",1
+"23","Defines a function that switches the first and last value of a list",1
+"24","Switches the first and last element of a list",1
+"25","switches the first and last elements in a list",1
+"26","switches the last and first value in a list",1
+"27","Switches the first and last value of the list",1
+"28","exchange the value of first and the last variable in the list x",1
+"29","switches the first and last elements in a list",1
+"30","z is assigned to the first element in x, the first and last element of x switch values",1
+"31","switches the values between the first value and last value of list x",1
+"32","switches/interchanges the positions of the first and last elements in a list",1
+"33","the first value in list x is changed to be the same value as the last value in list x, the last value in list x is then changed to be the initial first value in list x ",1
+"34","switches the first and last numbers in list x ",1
+"35","Swaps the first and last elements in a list",1
+"36","swaps the first and last item in a list",1
+"37","Interchanging first and last elements of a list",1
+"38","the first and last elements of a list swap values",1
+"39","change the position of the first element and the last element",1
+"40","the first and last values in a list are flipped",1
+"41","switches the values of the first and last elements in the list. EX: if x=[5,10,15] after the program x= [15,10,5]",1
+"42","Swaps the last value of a list with its first value",1
+"43","switches the first and last element of a list",1
+"44","switches the first and last elements in a list",1
+"45","The first and last element in a list swap positions.",1
+"46","exchange the first element and the last element in the list x",1
+"47","Switches the last element within a list with the first element",1
+"48","Switches the values of the first and last element of list x.",1
+"49","switches the first value and the last value in a list",1
+"50","reversed the last element in the list to the first element in the list, and the last element to the first element",1
+"51","The function will return True if the index 0 element of x is the same as the index -1 element of x because this means that z will also be equal to the index -1 element of x since z is equal to the index 0 element of x",0
+"52","Defines a variable z using elements of a list x",0
+"53","assigns the z variable to the index of x[-1]",0
+"54","assigning a variable to the last value of a list",0
+"55","returns True",0
+"56","computes the value of z at index of -1 of x",0
+"57","swaps the value of two elements in a list",0
+"58","Defines a function with variable x, a list. Then it assigns the first value to z and after replaces the first value with the last value and finally assigns the last value to z.",0
+"59","this function showcases how z is equal to x{0}. x{0} is equal to x{-1}. Therefore, x{-1} is equal to z",0
+"60","the variable z is in the list x",0
+"61","sets the last element in list x equal to the value of the first element ",0
+"62","evaluates that lists corresponds",0
+"63","changes the indexing of a list",0
+"64","The first and last elements in a list are equivalent.",0
+"65","the last element of the list is equal to the first element of the list",0
+"66","The first and last indexes of a list are the same",0
+"67","function swaps the first value of a list with the last value of a list and stores it in z",0
+"68","The function switches the order of two numbers in the list",0
+"69","checks to see if list x is one element long",0
+"70","swaps the order of two elements in a list",0
+"71","makes the last value of a list and a first value of a list equal and then assigns it to a variable",0
+"72","both the first and last elements of the list are equal",0
+"73","returns True if the last value in a list is equal to value of z. ",0
+"74","integer is equal to z",0
+"75","Setting the variable z equal to index zero in list x. Changing index zero to negative one index. Then changing index negative one to what index zero equals.",0
+"76","The variable is set equal to the first element of a list, which is set equal to the last element of the list. ",0
+"77","reassigns value at index -1 to z",0
+"78","find out if the variables are the same as in the list.",0
+"79","the variables are assigned a value from the expression and they change with every new lines subject to their new assigned spot",0
+"80","Assigns the last element in list x to be the first element in the list",0
+"81","The program equates the value of z to the last index value of x.",0
+"82","The beginning and end of a list are the same value.",0
+"83","Final index of list x gains value of first index of list x",0
+"84","Comparing two values equal to a variable",0
+"85","replaces an element in the list with another elements",0
+"86","Checks if the last unit of x is z",0
+"87","check if the first and last elements of a list are the same ",0
+"88","returns the value of z after each code",0
+"89","the first and second to last value in the given list become equal and are assigned to the variable z ",0
+"90","the value in a list at the index of -1 of x is equal to z",0
+"91","the first and last elements in the list x are the same ",0
+"92","Makes the first element and the last element of a list the same value.",0
+"93","make the start and the end of list equal to each other, and store the value in z again.",0
+"94","The elements in the list swap positions",0
+"95","Assigns z to the last element of list x",0
+"96","first item in the list is inputted into variable",0
+"97","the first and last element of a list are equal to each other ",0
+"98","assigns z to a value in the list x",0
+"99","compute that the last character of f(x) is z(also the first alphabet of f(x) is z) ",0
+"100","variable z is equivalent to the second to last index of x",0

@@ -1,0 +1,68 @@
+Changing the position of the first element of list x to the end, and the last element's position to the first of list x.
+the first and last value of list x exchanges position
+exchange the location of the first and last element in a list
+Switch the position of the first element and last element in the list x.
+exchanges the first element and last element in a list
+switch the position of the first and the last element in a list
+switch the order of the first and last elements within list x
+Switches the first and the last element of the list
+interchanges the first and last element in a list
+swap the positions for the first and last element
+The function makes the first element equal the last, and assigns z with the last element of list x
+the first value of the list and the last value of the list swap index positions in the list
+swaps the first and last item in list x
+switches the first and last elements in a list with each other
+The function f switches the items in the first and last indexes of variable x.
+Takes the first and last numbers of a list and swaps them
+The first and last indexes of the list were swapped.
+switches the positions of the first and last values in list x.
+swaps the first and last item of the list
+exchange the first and last elements in the list
+the first and last variables in a list are swapping places
+the first value in a list and the last value in the same list are swapped
+Swaps the first and last elements in list x
+The function replaces the first element of the list with the last element of the list
+This function switches the first and last indexes of list x
+Switches the first and last element in a given list
+Switches the the first and last item in the list
+the function switches the positions of the first and last values in the list
+Switch the values of the first and last element of a list
+the function switches the first and last variable in a list
+switch the first element of the list with the last element of the list, and given it equals to z
+switches the places of the first and last element
+change the position of the first and the last element of a list
+swaps the first and last element of a list
+switches the first and last elements of a user input list
+switch the first and last elements in the list
+The function switches the elements in the first and last position of the list.
+The first and last elements switch places within the list.
+Bring the first element of the list to the end and the last element of the list to the start
+makes the last character of list x equal to the first, assigns the variable z to that character
+switches the position of the first and last elements in a list and stores the new last element in variable z
+Swaps the positions of the first and last element of a list
+This swaps the first and last element of the input list, x.
+swaps the first and last elements on a list
+This code swaps the first and last elements in a list with each other
+swaps the first and last elements of a list
+swap the first element of x with the last element of x
+first and last elements are switched in a given list
+Swaps the first and last elements in a list
+replaces the first value in a list with the last value, and replaces the last value in the list with the first value.
+Switch the value of the first number and last number in list x
+Switches the positions of the first and last elements of a list
+adjust the list x so that the first element in the list and the last element's position will swap, or that the list will now start with the last element and end with the first element
+Swaps the first and last items in a given list.
+switches the positions of the first and last element in a list
+Switch the values between the first one in x and the last one in x
+switches the first and last elements contained in variable x
+switches the first and last elements of a list
+function switches the first and last element in a list
+swaps the first and last elements of a list
+change the position of the first one in the list and the last one
+The function swaps the first and the last element of the list
+swaps the position of the first and last items in a list.
+the first element is set the last element and the last element is set to the original first element.
+swap the position of the first element and the position of the last element of the list x
+exchanges the first element and the last element in the list x.
+Swaps the first and last elements of the list.
+exchange the first element and the last element in the list
