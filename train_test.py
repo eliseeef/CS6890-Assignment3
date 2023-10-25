@@ -2,6 +2,26 @@ import csv
 
 problem = 'fl'
 
+
+
+def get_bigram_frequency(list_of_bigrams):
+    bigram_dict = {}
+    for item in list_of_bigrams:
+        if item in bigram_dict:
+            bigram_dict[item] += 1
+        else:
+            bigram_dict[item] = 1
+    return bigram_dict
+
+
+def get_bigrams(list_of_lines):
+    results = []
+    for line in list_of_lines:
+        words = line.split()
+        for i in range(len(words) - 1):
+            results.append((words[i], words[i + 1]))
+    return results
+
 def train():
     right = []
     wrong = []
