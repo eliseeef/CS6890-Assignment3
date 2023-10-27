@@ -16,6 +16,7 @@ def get_bigrams(sentence):
     words = sentence.lower().split()
     for i in range(len(words) - 1):
         bigrams.append((words[i], words[i + 1]))
+    # print("BIGRM ", bigrams)
     return bigrams
 
 def get_bigram_probability(list_of_sentences):
@@ -25,25 +26,36 @@ def get_bigram_probability(list_of_sentences):
         for i in range(len(words) - 1):
             bigrams.append((words[i], words[i + 1]))
     frequencies = get_bigram_frequency(bigrams)
+    # print("FREQU ", frequencies)
     total_bigram_count = len(frequencies)
     bigram_probs = {bigram: count / total_bigram_count for bigram, count in frequencies.items()}
     return bigram_probs
 
+#update bigram probailities, add and divide by the count of hte seoncd word and weight it and then add it and then 
+
 def get_likelihood_correct(submission_bigrams, right_prob, wrong_prob):
-    likelihood_correct = 1.0
-    likelihood_incorrect = 1.0
+    likelihood_correct = 0
+    likelihood_incorrect = 0
     for bigram in submission_bigrams:
+        print("BIGRAM likeli ", bigram)
         if bigram in right_prob:
             # print("BIGRAM ", bigram)
-            # print("RIGHT PROB ", right_prob)
-            likelihood_correct *= right_prob[bigram]
+            print("RIGHT PROB ", right_prob[bigram])
+            # likelihood_correct += right_prob[bigram]
+            likelihood_correct += 1
             # print("LIKELIHOOD COORECT ", likelihood_correct)
         if bigram in wrong_prob:
-            likelihood_incorrect *= wrong_prob[bigram]
+            print("BIGRAM ", bigram)
+            print("WRONG PROB ", wrong_prob[bigram])
+            # likelihood_incorrect += wrong_prob[bigram]
+            likelihood_incorrect += 1
+            # print("LIKELIHOOD INCOORECT ", likelihood_incorrect)
+
     
-    # print("LIKELIHOOD CORRECT ", likelihood_correct)
-    # print("LIKELIHOOD INCORRECT ", likelihood_incorrect)
-    return likelihood_correct > likelihood_incorrect
+    print("LIKELIHOOD CORRECT ", likelihood_correct)
+    print("LIKELIHOOD INCORRECT ", likelihood_incorrect)
+
+    return likelihood_correct >= likelihood_incorrect
 
 def classify_submission(bigrams_right, bigrams_wrong, submissions):
     print("CLASSIFY SUBMISSION ")
@@ -53,7 +65,7 @@ def classify_submission(bigrams_right, bigrams_wrong, submissions):
     for submission, validity in submissions.items():
         submission_bigrams = get_bigram_frequency(get_bigrams(submission))
         likelihood_correct = get_likelihood_correct(submission_bigrams, bigrams_right, bigrams_wrong)
-        # print("LIKELIHOOD CORRECT ", likelihood_correct)
+        print(" CORRECT?? ", likelihood_correct)
         if likelihood_correct: # it is correct
             # print("IT IS CORRECT ", validity)
             if int(validity) == 1: # it should be graded correct 
