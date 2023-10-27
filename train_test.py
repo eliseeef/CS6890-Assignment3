@@ -6,7 +6,8 @@ def get_bag_o_words(list_of_sentences):
     bag_o_words_dict = {}
     for sentence in list_of_sentences:
         bag_o_words = sentence.lower().split()
-        for word in bag_o_words:
+        clean_words = [word.replace(",", "").replace(".", "") for word in bag_o_words]
+        for word in clean_words:
             if word in bag_o_words_dict:
                 bag_o_words_dict[word] += 1
             else:
@@ -25,20 +26,21 @@ def get_bigram_frequency(list_of_bigrams):
 def get_bigrams(sentence):
     bigrams = []
     words = sentence.lower().split()
-    for i in range(len(words) - 1):
-        bigrams.append((words[i], words[i + 1]))
+    clean_words = [word.replace(",", "").replace(".", "") for word in words]
+    for i in range(len(clean_words) - 1):
+        bigrams.append((clean_words[i], clean_words[i + 1]))
     return bigrams
 
 def get_bigram_probability(list_of_sentences):
     bag_o_words_freq = get_bag_o_words(list_of_sentences)
     bigrams = []
     for sentence in list_of_sentences:
-        words = sentence.lower().split()
-        for i in range(len(words) - 1):
-            bigrams.append((words[i], words[i + 1]))
+        bigrams += get_bigrams(sentence)
     frequencies = get_bigram_frequency(bigrams)
 
-    bigram_probs = {bigram: count / bag_o_words_freq[bigram[0]] for bigram, count in frequencies.items()}
+    # try to remove frequencies of less than one
+    filtered_frequencies = {key: value for key, value in frequencies.items() if value >= 2}
+    bigram_probs = {bigram: count / bag_o_words_freq[bigram[0]] for bigram, count in filtered_frequencies.items()}
     return bigram_probs
 
 def get_likelihood_correct(submission_bigrams, right_prob, wrong_prob):
