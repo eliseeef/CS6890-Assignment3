@@ -29,43 +29,46 @@ def get_bigram_probability(list_of_sentences):
     bigram_probs = {bigram: count / total_bigram_count for bigram, count in frequencies.items()}
     return bigram_probs
 
-def get_submissions_lists(submissions):
-    valid_submissions = []
-    invalid_submissions = []
-    for sentence, validity in submissions.items():
-        if int(validity) == 1:
-            valid_submissions.append(sentence.lower())
-        else:
-            invalid_submissions.append(sentence.lower())
-    return valid_submissions, invalid_submissions
-
 def get_likelihood_correct(submission_bigrams, right_prob, wrong_prob):
     likelihood_correct = 1.0
     likelihood_incorrect = 1.0
     for bigram in submission_bigrams:
         if bigram in right_prob:
+            # print("BIGRAM ", bigram)
+            # print("RIGHT PROB ", right_prob)
             likelihood_correct *= right_prob[bigram]
+            # print("LIKELIHOOD COORECT ", likelihood_correct)
         if bigram in wrong_prob:
             likelihood_incorrect *= wrong_prob[bigram]
     
+    # print("LIKELIHOOD CORRECT ", likelihood_correct)
+    # print("LIKELIHOOD INCORRECT ", likelihood_incorrect)
     return likelihood_correct > likelihood_incorrect
 
 def classify_submission(bigrams_right, bigrams_wrong, submissions):
     print("CLASSIFY SUBMISSION ")
-    correct_count = 0
-    incorrect_count = 0
-    for submission in submissions:
-        print("SUBMISSION ", submission)
-        print("BIGRAMS ", get_bigram_frequency(get_bigrams(submission)))
+    correctly_graded = 0
+    incorrectly_graded = 0
+
+    for submission, validity in submissions.items():
         submission_bigrams = get_bigram_frequency(get_bigrams(submission))
-        correct = get_likelihood_correct(submission_bigrams, bigrams_right, bigrams_wrong)
-        if correct: 
-            correct_count += 1
-        else:
-            incorrect_count += 1
-    return correct_count, incorrect_count
+        likelihood_correct = get_likelihood_correct(submission_bigrams, bigrams_right, bigrams_wrong)
+        # print("LIKELIHOOD CORRECT ", likelihood_correct)
+        if likelihood_correct: # it is correct
+            # print("IT IS CORRECT ", validity)
+            if int(validity) == 1: # it should be graded correct 
+                correctly_graded += 1
+            else: 
+                incorrectly_graded += 1
+        else: # it is incorrect
+            if int(validity) == 0: # it should be graded incorrect
+                correctly_graded += 1
+            else:
+                incorrectly_graded += 1 
+    return correctly_graded, incorrectly_graded
 
 def train():
+    print("TRAINNNNN")
     right = []
     wrong = []
     with open(f'./{problem}_right_training.txt') as infile:
@@ -91,10 +94,8 @@ def test(bigrams_right, bigrams_wrong):
             submissions[row[1]] = row[2]
     del submissions['Student.answer']
 
-    # print("SUBMISSIONS ", submissions)
-    valid_submissions, invalid_submissions = get_submissions_lists(submissions)
     print("CLASSIFYING...")
-    correctly_graded, incorrectly_graded = classify_submission(bigrams_right, bigrams_wrong, valid_submissions)
+    correctly_graded, incorrectly_graded = classify_submission(bigrams_right, bigrams_wrong, submissions)
 
     # TODO Use your bigrams to grade each student input and check if you graded
     # it correctly
